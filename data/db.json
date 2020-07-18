@@ -31,11 +31,11 @@
     "JornadaDeCompeticionFormulaUno": 52,
     "AlumnoJuegoDeCompeticionFormulaUno": 69,
     "EquipoJuegoDeCompeticionFormulaUno": 11,
-    "Escenario": 15,
-    "PuntoGeolocalizable": 26,
+    "Escenario": 32,
+    "PuntoGeolocalizable": 54,
     "Pregunta": 12,
     "Cuestionario": 19,
-    "PreguntaDelCuestionario": 25,
+    "PreguntaDelCuestionario": 26,
     "SesionClase": 27,
     "AsistenciaClase": 61,
     "FamiliaAvatares": 45,
@@ -43,8 +43,8 @@
     "AlumnoJuegoDeAvatar": 53,
     "JuegoDeCuestionario": 31,
     "AlumnoJuegoDeCuestionario": 120,
-    "JuegoDeGeocaching": 3,
-    "AlumnoJuegoDeGeocaching": 15
+    "JuegoDeGeocaching": 12,
+    "AlumnoJuegoDeGeocaching": 78
   },
   "models": {
     "Profesor": {
@@ -165,8 +165,6 @@
     "JuegoDeColeccion": {
       "1": "{\"NombreJuego\":\"Prueba Colección 1\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1,\"coleccionId\":2}",
       "2": "{\"NombreJuego\":\"a\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":2,\"coleccionId\":1}",
-      "3": "{\"NombreJuego\":\"vb\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":3,\"coleccionId\":1}",
-      "4": "{\"NombreJuego\":\"d\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":4}",
       "12": "{\"NombreJuego\":\"fddf\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":2,\"id\":12,\"coleccionId\":1}",
       "14": "{\"NombreJuego\":\"Compositores\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":44,\"coleccionId\":7,\"id\":14}",
       "15": "{\"NombreJuego\":\"Sherlock\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":44,\"coleccionId\":8,\"id\":15}",
@@ -537,7 +535,6 @@
       "7": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":13,\"JuegoDeCompeticionLigaId\":27,\"id\":7}"
     },
     "JuegoDeCompeticionFormulaUno": {
-      "1": "{\"NumeroTotalJornadas\":5,\"NumeroParticipantesPuntuan\":3,\"Puntos\":[100,75,50],\"NombreJuego\":\"Prueba F1 1\",\"Tipo\":\"Juego De Competición Fórmula Uno\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1}",
       "2": "{\"NumeroTotalJornadas\":5,\"NumeroParticipantesPuntuan\":3,\"Puntos\":[200,100,50],\"NombreJuego\":\"Prueba F1 1\",\"Tipo\":\"Juego De Competición Fórmula Uno\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":2,\"id\":2}",
       "3": "{\"NumeroTotalJornadas\":5,\"NumeroParticipantesPuntuan\":3,\"Puntos\":[300,200,100],\"NombreJuego\":\"Prueba F1 2\",\"Tipo\":\"Juego De Competición Fórmula Uno\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":2,\"id\":3}",
       "4": "{\"NumeroTotalJornadas\":6,\"NumeroParticipantesPuntuan\":3,\"Puntos\":[10,7,1],\"NombreJuego\":\"F1\",\"Tipo\":\"Juego De Competición Fórmula Uno\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":3,\"id\":4}",
@@ -579,14 +576,6 @@
       "51": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionFormulaUnoId\":18,\"JuegoDeCompeticionLigaId\":18,\"id\":51}"
     },
     "AlumnoJuegoDeCompeticionFormulaUno": {
-      "1": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":1,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":1}",
-      "2": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":2,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":2}",
-      "3": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":3,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":3}",
-      "4": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":4,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":4}",
-      "5": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":5,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":5}",
-      "6": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":6,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":6}",
-      "7": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":7,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":7}",
-      "8": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":8,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":8}",
       "9": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":16,\"JuegoDeCompeticionFormulaUnoId\":2,\"id\":9}",
       "10": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":17,\"JuegoDeCompeticionFormulaUnoId\":2,\"id\":10}",
       "11": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":12,\"JuegoDeCompeticionFormulaUnoId\":2,\"id\":11}",
@@ -658,12 +647,12 @@
       "19": "{\"preguntaId\":5,\"cuestionarioId\":16,\"id\":19}",
       "22": "{\"preguntaId\":9,\"cuestionarioId\":4,\"id\":22}",
       "23": "{\"preguntaId\":6,\"cuestionarioId\":4,\"id\":23}",
-      "24": "{\"preguntaId\":3,\"cuestionarioId\":4,\"id\":24}"
+      "24": "{\"preguntaId\":3,\"cuestionarioId\":4,\"id\":24}",
+      "25": "{\"preguntaId\":6,\"cuestionarioId\":1,\"id\":25}"
     },
     "Escenario": {
-      "10": "{\"Mapa\":\"m1\",\"Descripcion\":\"d1\",\"profesorId\":1,\"id\":10}",
-      "11": "{\"Mapa\":\"m2\",\"Descripcion\":\"d2\",\"profesorId\":1,\"id\":11}",
-      "14": "{\"Mapa\":\"m3\",\"Descripcion\":\"descripcion3\",\"profesorId\":1,\"id\":14}"
+      "19": "{\"Mapa\":\"Estaciones Metro\",\"Descripcion\":\"Ubicaciones de estaciones de metro\",\"profesorId\":1,\"id\":19}",
+      "28": "{\"Mapa\":\"Barcelona\",\"Descripcion\":\"Ubicaciones de Barcelona\",\"profesorId\":1,\"id\":28}"
     },
     "PuntoGeolocalizable": {
       "1": "{\"Latitud\":\"lat1\",\"Longitud\":\"lon1\",\"PistaFacil\":\"pf1\",\"PistaDificil\":\"pd1\",\"idescenario\":1,\"id\":1}",
@@ -675,18 +664,33 @@
       "8": "{\"Latitud\":\"prueba1_latitud\",\"Longitud\":\"prueba1_longitud\",\"PistaFacil\":\"prueba1_pf\",\"PistaDificil\":\"prueba1_pd\",\"idescenario\":4,\"id\":8}",
       "9": "{\"Latitud\":\"2\",\"Longitud\":\"2\",\"PistaFacil\":\"2\",\"PistaDificil\":\"2\",\"idescenario\":4,\"id\":9}",
       "10": "{\"Latitud\":\"djv\",\"Longitud\":\"jv\",\"PistaFacil\":\"jd\",\"PistaDificil\":\"bfj\",\"idescenario\":6,\"id\":10}",
-      "14": "{\"Latitud\":\"1\",\"Longitud\":\"1\",\"PistaFacil\":\"1\",\"PistaDificil\":\"1\",\"idescenario\":10,\"id\":14}",
-      "15": "{\"Latitud\":\"2\",\"Longitud\":\"2\",\"PistaFacil\":\"2\",\"PistaDificil\":\"2\",\"idescenario\":10,\"id\":15}",
-      "16": "{\"Latitud\":\"3\",\"Longitud\":\"3\",\"PistaFacil\":\"3\",\"PistaDificil\":\"3\",\"idescenario\":10,\"id\":16}",
-      "17": "{\"Latitud\":\"1\",\"Longitud\":\"1\",\"PistaFacil\":\"1\",\"PistaDificil\":\"1\",\"idescenario\":11,\"id\":17}",
-      "18": "{\"Latitud\":\"2\",\"Longitud\":\"2\",\"PistaFacil\":\"2\",\"PistaDificil\":\"2\",\"idescenario\":11,\"id\":18}",
-      "19": "{\"Latitud\":\"5\",\"Longitud\":\"5\",\"PistaFacil\":\"5\",\"PistaDificil\":\"5\",\"idescenario\":10,\"id\":19}",
-      "20": "{\"Latitud\":\"afa\",\"Longitud\":\"ds\",\"PistaFacil\":\"gw\",\"PistaDificil\":\"few\",\"idescenario\":10,\"id\":20}",
-      "21": "{\"Latitud\":\"gs\",\"Longitud\":\"ew\",\"PistaFacil\":\"ew\",\"PistaDificil\":\"ewf\",\"idescenario\":10,\"id\":21}",
-      "22": "{\"Latitud\":\"a\",\"Longitud\":\"a\",\"PistaFacil\":\"a\",\"PistaDificil\":\"a\",\"idescenario\":10,\"id\":22}",
+      "15": "{\"Latitud\":\"41.3728768\",\"Longitud\":\"2.1659648\",\"PistaFacil\":\"2\",\"PistaDificil\":\"2\",\"idescenario\":10,\"id\":15,\"Nombre\":\"1\"}",
+      "17": "{\"Latitud\":\"1\",\"Longitud\":\"1\",\"PistaFacil\":\"1\",\"PistaDificil\":\"1\",\"idescenario\":11,\"id\":17,\"Nombre\":\"w\"}",
+      "18": "{\"Latitud\":\"2\",\"Longitud\":\"2\",\"PistaFacil\":\"2\",\"PistaDificil\":\"2\",\"idescenario\":11,\"id\":18,\"Nombre\":\"q\"}",
       "23": "{\"Latitud\":\"d\",\"Longitud\":\"f\",\"PistaFacil\":\"f\",\"PistaDificil\":\"f\",\"idescenario\":12,\"id\":23}",
       "24": "{\"Latitud\":\"l\",\"Longitud\":\"a\",\"PistaFacil\":\"d\",\"PistaDificil\":\"f\",\"idescenario\":12,\"id\":24}",
-      "25": "{\"Latitud\":\"l1\",\"Longitud\":\"l1\",\"PistaFacil\":\"pf1\",\"PistaDificil\":\"pd1\",\"idescenario\":14,\"Nombre\":\"n1\",\"id\":25}"
+      "25": "{\"Latitud\":\"l1\",\"Longitud\":\"l1\",\"PistaFacil\":\"pf1\",\"PistaDificil\":\"pd1\",\"idescenario\":14,\"Nombre\":\"nombre1\",\"id\":25}",
+      "26": "{\"Latitud\":\"s\",\"Longitud\":\"s\",\"PistaFacil\":\"s\",\"PistaDificil\":\"s\",\"idescenario\":15,\"Nombre\":\"s\",\"id\":26}",
+      "27": "{\"Latitud\":\"latitud2\",\"Longitud\":\"g\",\"PistaFacil\":\"g\",\"PistaDificil\":\"g\",\"idescenario\":14,\"Nombre\":\"nombre2\",\"id\":27}",
+      "28": "{\"Latitud\":\"s\",\"Longitud\":\"s\",\"PistaFacil\":\"ss\",\"PistaDificil\":\"s\",\"idescenario\":16,\"Nombre\":\"s\",\"id\":28}",
+      "31": "{\"Latitud\":\"a\",\"Longitud\":\"a\",\"PistaFacil\":\"a\",\"PistaDificil\":\"a\",\"idescenario\":18,\"Nombre\":\"a\",\"id\":31}",
+      "32": "{\"Latitud\":\"b\",\"Longitud\":\"b\",\"PistaFacil\":\"b\",\"PistaDificil\":\"b\",\"idescenario\":18,\"Nombre\":\"b\",\"id\":32}",
+      "33": "{\"Latitud\":\"c\",\"Longitud\":\"c\",\"PistaFacil\":\"c\",\"PistaDificil\":\"c\",\"idescenario\":18,\"Nombre\":\"c\",\"id\":33}",
+      "36": "{\"Latitud\":\"a\",\"Longitud\":\"a\",\"PistaFacil\":\"a\",\"PistaDificil\":\"a\",\"idescenario\":22,\"Nombre\":\"a\",\"id\":36}",
+      "37": "{\"Latitud\":\"a\",\"Longitud\":\"a\",\"PistaFacil\":\"a\",\"PistaDificil\":\"a\",\"idescenario\":23,\"Nombre\":\"a\",\"id\":37}",
+      "39": "{\"Latitud\":\"s\",\"Longitud\":\"s\",\"PistaFacil\":\"s\",\"PistaDificil\":\"s\",\"idescenario\":24,\"Nombre\":\"abc\",\"id\":39}",
+      "40": "{\"Latitud\":\"a\",\"Longitud\":\"a\",\"PistaFacil\":\"a\",\"PistaDificil\":\"a\",\"idescenario\":24,\"Nombre\":\"a\",\"id\":40}",
+      "41": "{\"Latitud\":\"a\",\"Longitud\":\"a\",\"PistaFacil\":\"a\",\"PistaDificil\":\"a\",\"idescenario\":25,\"Nombre\":\"a\",\"id\":41}",
+      "42": "{\"Latitud\":\"a\",\"Longitud\":\"a\",\"PistaFacil\":\"a\",\"PistaDificil\":\"a\",\"idescenario\":26,\"Nombre\":\"a\",\"id\":42}",
+      "43": "{\"Latitud\":\"a\",\"Longitud\":\"a\",\"PistaFacil\":\"a\",\"PistaDificil\":\"a\",\"idescenario\":24,\"Nombre\":\"ab\",\"id\":43}",
+      "44": "{\"Latitud\":\"a\",\"Longitud\":\"s\",\"PistaFacil\":\"s\",\"PistaDificil\":\"s\",\"idescenario\":24,\"Nombre\":\"a\",\"id\":44}",
+      "45": "{\"Latitud\":\"sd\",\"Longitud\":\"sd\",\"PistaFacil\":\"sd\",\"PistaDificil\":\"sd\",\"idescenario\":27,\"Nombre\":\"sd\",\"id\":45}",
+      "46": "{\"Latitud\":\"41.4036\",\"Longitud\":\"2.1743\",\"PistaFacil\":\"Basílica católica diseñada por Antoni Gaudí\",\"PistaDificil\":\"En construcción desde 1882\",\"idescenario\":28,\"Nombre\":\"Sagrada Família\",\"id\":46}",
+      "48": "{\"Latitud\":\"41.380833\",\"Longitud\":\"2.1225\",\"PistaFacil\":\"Estadio con mayor capacidad de Europa\",\"PistaDificil\":\"Recinto inaugurado en 1957\",\"idescenario\":28,\"Nombre\":\"Camp Nou\",\"id\":48}",
+      "49": "{\"Latitud\":\"1.1\",\"Longitud\":\"1.1\",\"PistaFacil\":\"pf1\",\"PistaDificil\":\"pd1\",\"idescenario\":29,\"Nombre\":\"a\",\"id\":49}",
+      "51": "{\"Latitud\":\"41.30\",\"Longitud\":\"2.16\",\"PistaFacil\":\"pista facil demo1\",\"PistaDificil\":\"pista dificil demo1\",\"idescenario\":19,\"Nombre\":\"l1\",\"id\":51}",
+      "52": "{\"Latitud\":\"a\",\"Longitud\":\"a\",\"PistaFacil\":\"a\",\"PistaDificil\":\"a\",\"idescenario\":30,\"Nombre\":\"a\",\"id\":52}",
+      "53": "{\"Latitud\":\"a\",\"Longitud\":\"a\",\"PistaFacil\":\"a\",\"PistaDificil\":\"a\",\"idescenario\":31,\"Nombre\":\"a\",\"id\":53}"
     },
     "SesionClase": {
       "1": "{\"id\":1}",
@@ -724,7 +728,6 @@
       "30": "{\"profesorId\":1,\"NombreFamilia\":\"Cuatro Personajes\",\"Silueta\":\"cc_fondo.png\",\"NombreComplemento1\":\"Heroes\",\"Complemento1\":[\"cc_heroe1.png\",\"cc_heroe2.png\",\"cc_heroe3.png\",\"cc_heroe4.png\",\"cc_heroe5.png\"],\"NombreComplemento2\":\"Robots\",\"Complemento2\":[\"cc_robot1.png\",\"cc_robot2.png\",\"cc_robot3.png\",\"cc_robot4.png\",\"cc_robot5.png\"],\"NombreComplemento3\":\"Zombies\",\"Complemento3\":[\"cc_zombie1.png\",\"cc_zombie2.png\",\"cc_zombie3.png\",\"cc_zombie4.png\",\"cc_zombie5.png\"],\"NombreComplemento4\":\"Animales\",\"Complemento4\":[\"cc_animales1.png\",\"cc_animales2.png\",\"cc_animales3.png\",\"cc_animales4.png\",\"cc_animales5.png\"],\"id\":30}",
       "32": "{\"profesorId\":1,\"NombreFamilia\":\"Monstruo\",\"Silueta\":\"monstruo_silueta.png\",\"NombreComplemento1\":\"Ojos\",\"Complemento1\":[\"monstruo_ojos1.png\",\"monstruo_ojos2.png\",\"monstruo_ojos3.png\",\"monstruo_ojos4.png\",\"monstruo_ojos5.png\"],\"NombreComplemento2\":\"Cuernos\",\"Complemento2\":[\"monstruo_cuernos4.png\",\"monstruo_cuernos5.png\",\"monstruo_cuernos1.png\",\"monstruo_cuernos2.png\",\"monstruo_cuernos3.png\"],\"NombreComplemento3\":\"Bocas\",\"Complemento3\":[\"monstruo_boca1.png\",\"monstruo_boca2.png\",\"monstruo_boca3.png\",\"monstruo_boca4.png\",\"monstruo_boca5.png\"],\"NombreComplemento4\":\"Hijos\",\"Complemento4\":[\"monstruo_hijo1.png\",\"monstruo_hijo2.png\",\"monstruo_hijo3.png\",\"monstruo_hijo4.png\",\"monstruo_hijo5.png\"],\"id\":32}",
       "33": "{\"profesorId\":1,\"NombreFamilia\":\"Chica\",\"Silueta\":\"chica1_silueta.png\",\"NombreComplemento1\":\"Pelos\",\"Complemento1\":[\"chica1_pelo1.png\",\"chica1_pelo2.png\",\"chica1_pelo3.png\",\"chica1_pelo4.png\"],\"NombreComplemento2\":\"Caras\",\"Complemento2\":[\"chica1_cara1.png\",\"chica1_cara2.png\",\"chica1_cara3.png\",\"chica1_cara4.png\"],\"NombreComplemento3\":\"Bocas\",\"Complemento3\":[\"chica1_boca1.png\",\"chica1_boca2.png\",\"chica1_boca3.png\",\"chica1_boca4.png\"],\"NombreComplemento4\":\"Gafas\",\"Complemento4\":[\"chica1_gafas1.png\",\"chica1_gafas2.png\",\"chica1_gafas3.png\",\"chica1_gafas4.png\"],\"id\":33}",
-      "35": "{\"profesorId\":1,\"NombreFamilia\":\"Zoo\",\"Silueta\":\"zoo_fondo.png\",\"NombreComplemento1\":\"grupo 1\",\"Complemento1\":[\"g16876.png\",\"g17229.png\",\"rino.png\",\"g19138.png\",\"g19474.png\"],\"NombreComplemento2\":\"grupo 2\",\"Complemento2\":[\"g19747.png\",\"g19896.png\",\"g20054.png\",\"g20309.png\",\"gusano.png\"],\"NombreComplemento3\":\"grupo 3\",\"Complemento3\":[\"g20488.png\",\"g20584.png\",\"g20640.png\",\"g21896.png\",\"g23761.png\"],\"NombreComplemento4\":\"grupo 4\",\"Complemento4\":[\"g22249.png\",\"g22597.png\",\"g22912.png\",\"g23215.png\",\"g23543.png\"],\"id\":35}",
       "37": "{\"profesorId\":1,\"NombreFamilia\":\"Baraja\",\"Silueta\":\"baraja_fondo.png\",\"NombreComplemento1\":\"Oros\",\"Complemento1\":[\"6o.png\",\"7o.png\",\"10.png\",\"12o.png\",\"1o.png\"],\"NombreComplemento2\":\"Copas\",\"Complemento2\":[\"3c.png\",\"4c.png\",\"5c.png\",\"6c.png\",\"11c.png\"],\"NombreComplemento3\":\"Espadas\",\"Complemento3\":[\"1e.png\",\"4e.png\",\"7e.png\",\"11e.png\",\"12e.png\"],\"NombreComplemento4\":\"Bastos\",\"Complemento4\":[\"1b.png\",\"3b.png\",\"5b.png\",\"6b.png\",\"10b.png\"],\"id\":37}",
       "40": "{\"profesorId\":1,\"NombreFamilia\":\"Monigote\",\"Silueta\":\"monigote_busto.png\",\"NombreComplemento1\":\"pelos\",\"Complemento1\":[\"monigote_pelo1.png\",\"monigote_pelo2.png\",\"monigote_pelo3.png\",\"monigote_pelo4.png\"],\"NombreComplemento2\":\"pelos\",\"Complemento2\":[\"monigote_camisa1.png\",\"monigote_camisa2.png\",\"monigote_camisa3.png\",\"monigote_camisa4.png\"],\"NombreComplemento3\":\"bocas\",\"Complemento3\":[\"monigote_cara1.png\",\"monigote_cara2.png\",\"monigote_cara3.png\",\"monigote_cara4.png\"],\"NombreComplemento4\":\"otros\",\"Complemento4\":[\"monigote_otros1.png\",\"monigote_otros2.png\",\"monigote_otros3.png\"],\"id\":40}",
       "44": "{\"profesorId\":1,\"NombreFamilia\":\"Chicho\",\"Silueta\":\"chicho_silueta.png\",\"NombreComplemento1\":\"pelos\",\"Complemento1\":[\"chicho_pelo1.png\",\"chicho_pelo2.png\",\"chicho_pelo3.png\",\"chicho_pelo4.png\"],\"NombreComplemento2\":\"sombreros\",\"Complemento2\":[\"chicho_sombrero1.png\",\"chicho_sombrero2.png\",\"chicho_sombrero3.png\",\"chicho_sombrero4.png\"],\"NombreComplemento3\":\"camisas\",\"Complemento3\":[\"chicho_camisa1.png\",\"chicho_camisa2.png\",\"chicho_camisa3.png\",\"chicho_camisa4.png\"],\"NombreComplemento4\":\"gafas\",\"Complemento4\":[\"chicho_gafas1.png\",\"chicho_gafas2.png\",\"chicho_gafas3.png\",\"chicho_gafas4.png\"],\"id\":44}"
@@ -757,13 +760,11 @@
       "52": "{\"Privilegios\":[false,false,false,false,false,false],\"alumnoId\":1,\"juegoDeAvatarId\":27,\"id\":52}"
     },
     "JuegoDeCuestionario": {
-      "3": "{\"NombreJuego\":\"Primer Juego de Cuestionario\",\"PuntuacionCorrecta\":2,\"PuntuacionIncorrecta\":1,\"Presentacion\":\"Mismo orden para todos\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"profesorId\":1,\"grupoId\":1,\"cuestionarioId\":1,\"id\":3}",
       "7": "{\"NombreJuego\":\"Cuestionario final\",\"PuntuacionCorrecta\":2,\"PuntuacionIncorrecta\":0,\"Presentacion\":\"Preguntas desordenadas\",\"JuegoActivo\":false,\"JuegoTerminado\":true,\"profesorId\":1,\"grupoId\":1,\"cuestionarioId\":1,\"id\":7}",
-      "10": "{\"NombreJuego\":\"Cuestionario dificil\",\"PuntuacionCorrecta\":2,\"PuntuacionIncorrecta\":1,\"Presentacion\":\"Preguntas y respuestas desordenadas\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorId\":1,\"grupoId\":1,\"cuestionarioId\":1,\"id\":10}",
+      "10": "{\"NombreJuego\":\"Cuestionario dificil\",\"PuntuacionCorrecta\":2,\"PuntuacionIncorrecta\":1,\"Presentacion\":\"Preguntas y respuestas desordenadas\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"profesorId\":1,\"grupoId\":1,\"cuestionarioId\":1,\"id\":10}",
       "12": "{\"NombreJuego\":\"Test\",\"PuntuacionCorrecta\":2,\"PuntuacionIncorrecta\":0,\"Presentacion\":\"Mismo orden para todos\",\"JuegoActivo\":false,\"JuegoTerminado\":true,\"profesorId\":1,\"grupoId\":1,\"cuestionarioId\":1,\"id\":12}",
       "21": "{\"NombreJuego\":\"cuestionario prueba\",\"PuntuacionCorrecta\":5,\"PuntuacionIncorrecta\":2,\"Presentacion\":\"Mismo orden para todos\",\"JuegoActivo\":false,\"JuegoTerminado\":true,\"profesorId\":1,\"grupoId\":39,\"cuestionarioId\":4,\"id\":21}",
-      "22": "{\"NombreJuego\":\"Hola Cuestionario\",\"PuntuacionCorrecta\":4,\"PuntuacionIncorrecta\":3,\"Presentacion\":\"Preguntas y respuestas desordenadas\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"profesorId\":1,\"grupoId\":1,\"cuestionarioId\":4,\"id\":22}",
-      "23": "{\"NombreJuego\":\"cuestionario\",\"PuntuacionCorrecta\":5,\"PuntuacionIncorrecta\":1,\"Presentacion\":\"Preguntas y respuestas desordenadas\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorId\":1,\"grupoId\":1,\"cuestionarioId\":6,\"id\":23}",
+      "23": "{\"NombreJuego\":\"cuestionario\",\"PuntuacionCorrecta\":5,\"PuntuacionIncorrecta\":1,\"Presentacion\":\"Preguntas y respuestas desordenadas\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"profesorId\":1,\"grupoId\":1,\"cuestionarioId\":6,\"id\":23}",
       "24": "{\"NombreJuego\":\"Juego de cuestionario\",\"PuntuacionCorrecta\":5,\"PuntuacionIncorrecta\":2,\"Presentacion\":\"Preguntas desordenadas\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorId\":1,\"grupoId\":40,\"cuestionarioId\":7,\"id\":24}",
       "30": "{\"NombreJuego\":\"cuestionario alumno\",\"PuntuacionCorrecta\":5,\"PuntuacionIncorrecta\":2,\"Presentacion\":\"Mismo orden para todos\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"profesorId\":1,\"grupoId\":45,\"cuestionarioId\":1,\"id\":30}"
     },
@@ -776,9 +777,9 @@
       "13": "{\"Nota\":0,\"alumnoId\":5,\"juegoDeCuestionarioId\":7,\"id\":13}",
       "14": "{\"Nota\":6,\"alumnoId\":6,\"juegoDeCuestionarioId\":7,\"id\":14}",
       "15": "{\"Nota\":0,\"alumnoId\":7,\"juegoDeCuestionarioId\":7,\"id\":15}",
-      "30": "{\"id\":30,\"Nota\":0,\"alumnoId\":1,\"juegoDeCuestionarioId\":10}",
+      "30": "{\"id\":30,\"Nota\":5,\"alumnoId\":1,\"juegoDeCuestionarioId\":10}",
       "31": "{\"Nota\":0,\"alumnoId\":2,\"juegoDeCuestionarioId\":10,\"id\":31}",
-      "32": "{\"Nota\":0,\"alumnoId\":3,\"juegoDeCuestionarioId\":10,\"id\":32}",
+      "32": "{\"id\":32,\"Nota\":0.1,\"alumnoId\":3,\"juegoDeCuestionarioId\":10}",
       "33": "{\"Nota\":0,\"alumnoId\":4,\"juegoDeCuestionarioId\":10,\"id\":33}",
       "34": "{\"Nota\":0,\"alumnoId\":5,\"juegoDeCuestionarioId\":10,\"id\":34}",
       "35": "{\"Nota\":0,\"alumnoId\":6,\"juegoDeCuestionarioId\":10,\"id\":35}",
@@ -793,14 +794,7 @@
       "68": "{\"Nota\":7,\"alumnoId\":7,\"juegoDeCuestionarioId\":21,\"id\":68}",
       "69": "{\"Nota\":1,\"alumnoId\":23,\"juegoDeCuestionarioId\":21,\"id\":69}",
       "70": "{\"Nota\":0,\"alumnoId\":15,\"juegoDeCuestionarioId\":21,\"id\":70}",
-      "71": "{\"Nota\":0,\"alumnoId\":1,\"juegoDeCuestionarioId\":22,\"id\":71}",
-      "72": "{\"Nota\":0,\"alumnoId\":2,\"juegoDeCuestionarioId\":22,\"id\":72}",
-      "73": "{\"Nota\":0,\"alumnoId\":5,\"juegoDeCuestionarioId\":22,\"id\":73}",
-      "74": "{\"Nota\":0,\"alumnoId\":6,\"juegoDeCuestionarioId\":22,\"id\":74}",
-      "75": "{\"Nota\":0,\"alumnoId\":4,\"juegoDeCuestionarioId\":22,\"id\":75}",
-      "76": "{\"Nota\":0,\"alumnoId\":7,\"juegoDeCuestionarioId\":22,\"id\":76}",
-      "77": "{\"Nota\":0,\"alumnoId\":3,\"juegoDeCuestionarioId\":22,\"id\":77}",
-      "78": "{\"Nota\":0,\"alumnoId\":1,\"juegoDeCuestionarioId\":23,\"id\":78}",
+      "78": "{\"id\":78,\"Nota\":0.1,\"alumnoId\":1,\"juegoDeCuestionarioId\":23}",
       "79": "{\"Nota\":0,\"alumnoId\":2,\"juegoDeCuestionarioId\":23,\"id\":79}",
       "80": "{\"Nota\":0,\"alumnoId\":3,\"juegoDeCuestionarioId\":23,\"id\":80}",
       "81": "{\"Nota\":0,\"alumnoId\":4,\"juegoDeCuestionarioId\":23,\"id\":81}",
@@ -820,7 +814,33 @@
       "118": "{\"Nota\":0,\"alumnoId\":7,\"juegoDeCuestionarioId\":30,\"id\":118}",
       "119": "{\"Nota\":0,\"alumnoId\":23,\"juegoDeCuestionarioId\":30,\"id\":119}"
     },
-    "JuegoDeGeocaching": {},
-    "AlumnoJuegoDeGeocaching": {}
+    "JuegoDeGeocaching": {
+      "8": "{\"NombreJuego\":\"juego_geocaching1\",\"PuntuacionCorrecta\":1,\"PuntuacionIncorrecta\":1,\"PuntuacionCorrectaBonus\":1,\"PuntuacionIncorrectaBonus\":1,\"PreguntasBasicas\":[4],\"PreguntasBonus\":[3],\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorId\":1,\"grupoId\":1,\"idescenario\":10,\"id\":8}",
+      "9": "{\"NombreJuego\":\"Geocaching por Barcelona\",\"PuntuacionCorrecta\":10,\"PuntuacionIncorrecta\":5,\"PuntuacionCorrectaBonus\":100,\"PuntuacionIncorrectaBonus\":50,\"PreguntasBasicas\":[3,6,4],\"PreguntasBonus\":[5,10,11],\"JuegoActivo\":false,\"JuegoTerminado\":true,\"profesorId\":1,\"grupoId\":1,\"idescenario\":18,\"id\":9}",
+      "11": "{\"NombreJuego\":\"demo\",\"PuntuacionCorrecta\":1,\"PuntuacionIncorrecta\":0,\"PuntuacionCorrectaBonus\":20,\"PuntuacionIncorrectaBonus\":10,\"PreguntasBasicas\":[9,11],\"PreguntasBonus\":[8,4],\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorId\":1,\"grupoId\":1,\"idescenario\":28,\"id\":11}"
+    },
+    "AlumnoJuegoDeGeocaching": {
+      "50": "{\"Puntuacion\":0,\"Etapa\":0,\"juegoDeGeocachingId\":8,\"alumnoId\":1,\"id\":50}",
+      "51": "{\"Puntuacion\":0,\"Etapa\":0,\"juegoDeGeocachingId\":8,\"alumnoId\":3,\"id\":51}",
+      "52": "{\"Puntuacion\":0,\"Etapa\":0,\"juegoDeGeocachingId\":8,\"alumnoId\":4,\"id\":52}",
+      "53": "{\"Puntuacion\":0,\"Etapa\":0,\"juegoDeGeocachingId\":8,\"alumnoId\":5,\"id\":53}",
+      "54": "{\"Puntuacion\":0,\"Etapa\":0,\"juegoDeGeocachingId\":8,\"alumnoId\":2,\"id\":54}",
+      "55": "{\"Puntuacion\":0,\"Etapa\":0,\"juegoDeGeocachingId\":8,\"alumnoId\":6,\"id\":55}",
+      "56": "{\"Puntuacion\":0,\"Etapa\":0,\"juegoDeGeocachingId\":8,\"alumnoId\":7,\"id\":56}",
+      "57": "{\"Puntuacion\":10,\"Etapa\":1,\"alumnoId\":1,\"juegoDeGeocachingId\":9,\"id\":57}",
+      "58": "{\"Puntuacion\":8,\"Etapa\":1,\"alumnoId\":3,\"juegoDeGeocachingId\":9,\"id\":58}",
+      "59": "{\"Puntuacion\":0,\"Etapa\":0,\"alumnoId\":4,\"juegoDeGeocachingId\":9,\"id\":59}",
+      "60": "{\"Puntuacion\":0,\"Etapa\":0,\"alumnoId\":2,\"juegoDeGeocachingId\":9,\"id\":60}",
+      "61": "{\"Puntuacion\":20,\"Etapa\":3,\"alumnoId\":5,\"juegoDeGeocachingId\":9,\"id\":61}",
+      "62": "{\"Puntuacion\":0,\"Etapa\":0,\"alumnoId\":6,\"juegoDeGeocachingId\":9,\"id\":62}",
+      "63": "{\"Puntuacion\":0,\"Etapa\":0,\"alumnoId\":7,\"juegoDeGeocachingId\":9,\"id\":63}",
+      "71": "{\"id\":71,\"Puntuacion\":0.8,\"Etapa\":2,\"alumnoId\":1,\"juegoDeGeocachingId\":11}",
+      "72": "{\"Puntuacion\":0,\"Etapa\":0,\"alumnoId\":2,\"juegoDeGeocachingId\":11,\"id\":72}",
+      "73": "{\"Puntuacion\":0,\"Etapa\":0,\"alumnoId\":3,\"juegoDeGeocachingId\":11,\"id\":73}",
+      "74": "{\"Puntuacion\":0,\"Etapa\":0,\"alumnoId\":4,\"juegoDeGeocachingId\":11,\"id\":74}",
+      "75": "{\"Puntuacion\":0,\"Etapa\":0,\"alumnoId\":5,\"juegoDeGeocachingId\":11,\"id\":75}",
+      "76": "{\"Puntuacion\":0,\"Etapa\":0,\"alumnoId\":6,\"juegoDeGeocachingId\":11,\"id\":76}",
+      "77": "{\"Puntuacion\":0,\"Etapa\":0,\"alumnoId\":7,\"juegoDeGeocachingId\":11,\"id\":77}"
+    }
   }
 }

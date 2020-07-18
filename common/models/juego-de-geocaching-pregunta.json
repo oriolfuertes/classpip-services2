@@ -12,7 +12,7 @@
     "juegoDeGeocaching": {
       "type": "belongsTo",
       "model": "JuegoDeGeocaching",
-      "foreignKey": "JuegoDeGeocachingId",
+      "foreignKey": "juegoDeGeocachingId",
       "options": {
         "nestRemoting": true
       }

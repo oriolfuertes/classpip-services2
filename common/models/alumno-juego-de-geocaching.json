@@ -21,7 +21,7 @@
     "alumno": {
       "type": "belongsTo",
       "model": "Alumno",
-      "foreignKey": "AlumnoId",
+      "foreignKey": "alumnoId",
       "options": {
         "nestRemoting": true
       }
@@ -29,7 +29,7 @@
     "juegoDeGeocaching": {
       "type": "belongsTo",
       "model": "JuegoDeGeocaching",
-      "foreignKey": "juegodeGeocachingId",
+      "foreignKey": "juegoDeGeocachingId",
       "options": {
         "nestRemoting": true
       }
